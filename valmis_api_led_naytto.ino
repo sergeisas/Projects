@@ -18,7 +18,7 @@ int mySCL = 22;
 int lcdColumns = 16;
 int lcdRows = 2;
 LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);
-int pin = 4; //lcs näytön toimivuus
+int pin = 4; //lcd näytön toimivuus
 
 const char* ssid = "HHWLAN";    //wifi tunnus ja salasana
 const char* password = "HHWLAN12345";
